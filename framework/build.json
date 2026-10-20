@@ -1,0 +1,17 @@
+{
+  "builtAt": "2026-10-20T20:33:14.525Z",
+  "counts": {
+    "documents": 101,
+    "byType": {
+      "architecture": 9,
+      "governance": 3,
+      "policy": 17,
+      "process": 25,
+      "skill": 26,
+      "template": 21
+    },
+    "steps": 156,
+    "nodes": 101,
+    "edges": 256
+  }
+}

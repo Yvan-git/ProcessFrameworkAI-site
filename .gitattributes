@@ -1,0 +1,4 @@
+# The published files are a build artefact. They must be served byte for byte
+# as they were built — the file names carry a content hash — so Git must not
+# touch line endings or anything else.
+* -text
