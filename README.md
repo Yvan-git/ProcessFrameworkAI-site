@@ -8,7 +8,7 @@ which stays private.
 
 The live site is published from
 [`Yvan-git/Yvan-git.github.io`](https://github.com/Yvan-git/Yvan-git.github.io)
-and served at <https://framework.collabior.com/>.
+and served at <https://yvan-git.github.io/>.
 
 Both repositories receive the same files in the same run of the
 `publish-site` workflow in the source repository, so they cannot drift apart.
