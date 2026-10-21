@@ -1,9 +1,9 @@
 {
-  "builtAt": "2026-10-20T22:20:33.791Z",
+  "builtAt": "2026-10-21T11:18:44.180Z",
   "counts": {
-    "documents": 101,
+    "documents": 99,
     "byType": {
-      "architecture": 9,
+      "architecture": 7,
       "governance": 3,
       "policy": 17,
       "process": 25,
@@ -11,7 +11,7 @@
       "template": 21
     },
     "steps": 156,
-    "nodes": 101,
-    "edges": 256
+    "nodes": 99,
+    "edges": 254
   }
 }

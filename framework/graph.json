@@ -6,7 +6,7 @@
       "kind": "architecture",
       "label": "Procurement",
       "title": "Procurement",
-      "summary": "The enterprise procurement process framework. Twenty-five processes across eight domains, expressed as text-first process objects that are versioned in Git, published through the management system, and served to AI agents over MCP with explicit delegation boundaries.",
+      "summary": "The enterprise procurement process framework. Twenty-five processes across six domains, expressed as text-first process objects that are versioned in Git, published through the management system, and served to AI agents over MCP with explicit delegation boundaries.",
       "level": 0,
       "domain": "PROC",
       "status": "active",
@@ -18,7 +18,7 @@
         "id": "L0-Procurement",
         "type": "architecture",
         "title": "Procurement",
-        "summary": "The enterprise procurement process framework. Twenty-five processes across eight domains, expressed as text-first process objects that are versioned in Git, published through the management system, and served to AI agents over MCP with explicit delegation boundaries.",
+        "summary": "The enterprise procurement process framework. Twenty-five processes across six domains, expressed as text-first process objects that are versioned in Git, published through the management system, and served to AI agents over MCP with explicit delegation boundaries.",
         "status": "active",
         "version": "1.0.0",
         "file": "L0/Process-Architecture_L0-Procurement.md",
@@ -4349,7 +4349,7 @@
       "domain": "S2C",
       "status": "active",
       "position": {
-        "x": 2360,
+        "x": 3720,
         "y": 260
       },
       "data": {
@@ -4379,7 +4379,7 @@
       "version": "1.0.0",
       "order": 1,
       "position": {
-        "x": 2360,
+        "x": 3720,
         "y": 520
       },
       "data": {
@@ -4944,7 +4944,7 @@
       "version": "1.0.0",
       "order": 2,
       "position": {
-        "x": 2700,
+        "x": 4060,
         "y": 520
       },
       "data": {
@@ -5492,7 +5492,7 @@
       "version": "1.0.0",
       "order": 3,
       "position": {
-        "x": 3040,
+        "x": 4400,
         "y": 520
       },
       "data": {
@@ -5947,32 +5947,6 @@
       }
     },
     {
-      "id": "L1-InventoryMaterialMaster",
-      "type": "architecture",
-      "kind": "architecture",
-      "label": "Govern Inventory and Material Master",
-      "title": "Govern Inventory and Material Master",
-      "summary": "Owns the boundary between procurement and supply chain for physical material: who creates material master records, who guarantees data quality, and how procurement-created items are received without double-counting or orphaned stock.",
-      "level": 1,
-      "domain": "GIM",
-      "status": "active",
-      "position": {
-        "x": 1500,
-        "y": 260
-      },
-      "data": {
-        "id": "L1-InventoryMaterialMaster",
-        "type": "architecture",
-        "title": "Govern Inventory and Material Master",
-        "summary": "Owns the boundary between procurement and supply chain for physical material: who creates material master records, who guarantees data quality, and how procurement-created items are received without double-counting or orphaned stock.",
-        "status": "active",
-        "version": "1.0.0",
-        "file": "L1/Process-Architecture_L1-GovernInventoryAndMaterialMaster.md",
-        "tags": [],
-        "owner": "Head of Procurement"
-      }
-    },
-    {
       "id": "Proc_3.4",
       "type": "process",
       "kind": "process",
@@ -5980,14 +5954,14 @@
       "title": "Govern Inventory and Material Master",
       "summary": "",
       "level": 2,
-      "domain": "GIM",
-      "domainTitle": "Govern Inventory and Material Master",
-      "domainId": "L1-InventoryMaterialMaster",
+      "domain": "S2C",
+      "domainTitle": "Source to Contract",
+      "domainId": "L1-SourceToContract",
       "status": "draft",
       "version": "1.0.0",
-      "order": 1,
+      "order": 4,
       "position": {
-        "x": 1500,
+        "x": 4740,
         "y": 520
       },
       "data": {
@@ -6445,32 +6419,6 @@
       }
     },
     {
-      "id": "L1-TransactionEnablement",
-      "type": "architecture",
-      "kind": "architecture",
-      "label": "Transaction Enablement",
-      "title": "Transaction Enablement",
-      "summary": "Enriches and distributes sourcing and contracting terms into the transactional systems so that downstream processes — requisition, PO, invoice — are configured for the right price, the right terms and the right validation, automatically.",
-      "level": 1,
-      "domain": "TE",
-      "status": "active",
-      "position": {
-        "x": 2000,
-        "y": 260
-      },
-      "data": {
-        "id": "L1-TransactionEnablement",
-        "type": "architecture",
-        "title": "Transaction Enablement",
-        "summary": "Enriches and distributes sourcing and contracting terms into the transactional systems so that downstream processes — requisition, PO, invoice — are configured for the right price, the right terms and the right validation, automatically.",
-        "status": "active",
-        "version": "1.0.0",
-        "file": "L1/Process-Architecture_L1-TransactionEnablement.md",
-        "tags": [],
-        "owner": "Head of Procurement"
-      }
-    },
-    {
       "id": "Proc_3.5",
       "type": "process",
       "kind": "process",
@@ -6478,14 +6426,14 @@
       "title": "Transaction Enablement",
       "summary": "",
       "level": 2,
-      "domain": "TE",
-      "domainTitle": "Transaction Enablement",
-      "domainId": "L1-TransactionEnablement",
+      "domain": "S2C",
+      "domainTitle": "Source to Contract",
+      "domainId": "L1-SourceToContract",
       "status": "draft",
       "version": "1.0.0",
-      "order": 1,
+      "order": 5,
       "position": {
-        "x": 2000,
+        "x": 5080,
         "y": 520
       },
       "data": {
@@ -6946,7 +6894,7 @@
       "domain": "PR2PO",
       "status": "active",
       "position": {
-        "x": 5900,
+        "x": 3540,
         "y": 260
       },
       "data": {
@@ -6976,7 +6924,7 @@
       "version": "1.0.0",
       "order": 1,
       "position": {
-        "x": 5900,
+        "x": 3540,
         "y": 520
       },
       "data": {
@@ -7537,7 +7485,7 @@
       "version": "1.0.0",
       "order": 2,
       "position": {
-        "x": 6240,
+        "x": 3880,
         "y": 520
       },
       "data": {
@@ -8079,7 +8027,7 @@
       "version": "1.0.0",
       "order": 3,
       "position": {
-        "x": 6580,
+        "x": 4220,
         "y": 520
       },
       "data": {
@@ -8560,7 +8508,7 @@
       "domain": "I2P",
       "status": "active",
       "position": {
-        "x": 9120,
+        "x": 6080,
         "y": 260
       },
       "data": {
@@ -8590,7 +8538,7 @@
       "version": "1.0.0",
       "order": 1,
       "position": {
-        "x": 9120,
+        "x": 6080,
         "y": 520
       },
       "data": {
@@ -9012,7 +8960,7 @@
       "version": "1.0.0",
       "order": 2,
       "position": {
-        "x": 9460,
+        "x": 6420,
         "y": 520
       },
       "data": {
@@ -9513,7 +9461,7 @@
       "version": "1.0.0",
       "order": 3,
       "position": {
-        "x": 9800,
+        "x": 6760,
         "y": 520
       },
       "data": {
@@ -9973,7 +9921,7 @@
       "version": "1.0.0",
       "order": 4,
       "position": {
-        "x": 10140,
+        "x": 7100,
         "y": 520
       },
       "data": {
@@ -10383,7 +10331,7 @@
       "domain": "SM",
       "status": "active",
       "position": {
-        "x": 10640,
+        "x": 7600,
         "y": 260
       },
       "data": {
@@ -10413,7 +10361,7 @@
       "version": "1.0.0",
       "order": 1,
       "position": {
-        "x": 10640,
+        "x": 7600,
         "y": 520
       },
       "data": {
@@ -10951,7 +10899,7 @@
       "version": "1.0.0",
       "order": 2,
       "position": {
-        "x": 10980,
+        "x": 7940,
         "y": 520
       },
       "data": {
@@ -11394,7 +11342,7 @@
       "version": "1.0.0",
       "order": 3,
       "position": {
-        "x": 11320,
+        "x": 8280,
         "y": 520
       },
       "data": {
@@ -11872,7 +11820,7 @@
       "version": "1.0.0",
       "order": 4,
       "position": {
-        "x": 11660,
+        "x": 8620,
         "y": 520
       },
       "data": {
@@ -17917,17 +17865,8 @@
       }
     },
     {
-      "id": "L0-Procurement->L1-InventoryMaterialMaster",
-      "source": "L0-Procurement",
-      "target": "L1-InventoryMaterialMaster",
-      "type": "hierarchy",
-      "data": {
-        "label": "contains"
-      }
-    },
-    {
-      "id": "L1-InventoryMaterialMaster->Proc_3.4",
-      "source": "L1-InventoryMaterialMaster",
+      "id": "L1-SourceToContract->Proc_3.4",
+      "source": "L1-SourceToContract",
       "target": "Proc_3.4",
       "type": "hierarchy",
       "data": {
@@ -17935,17 +17874,8 @@
       }
     },
     {
-      "id": "L0-Procurement->L1-TransactionEnablement",
-      "source": "L0-Procurement",
-      "target": "L1-TransactionEnablement",
-      "type": "hierarchy",
-      "data": {
-        "label": "contains"
-      }
-    },
-    {
-      "id": "L1-TransactionEnablement->Proc_3.5",
-      "source": "L1-TransactionEnablement",
+      "id": "L1-SourceToContract->Proc_3.5",
+      "source": "L1-SourceToContract",
       "target": "Proc_3.5",
       "type": "hierarchy",
       "data": {

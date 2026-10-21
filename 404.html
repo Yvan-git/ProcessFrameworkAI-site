@@ -9,36 +9,48 @@
     />
     <link rel="icon" href="/favicon.svg" />
     <title>Collabior Process Framework</title>
-    <link href="/_app/immutable/entry/start.lhPaRf_r.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/DhuZ2hym.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/Bs4MCLze.js" rel="modulepreload">
-		<link href="/_app/immutable/entry/app.CMp_3J4I.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/CwOrA-_W.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/zkpfRSrG.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/B9Ba6x9V.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/BQ3h5QOx.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/CRuHwjcM.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/D549Iy40.js" rel="modulepreload">
-		<link href="/_app/immutable/nodes/0.BuxkiCz3.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/Q99OLI0H.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/DwL5-fTe.js" rel="modulepreload">
-		<link href="/_app/immutable/chunks/CHqBFrV1.js" rel="modulepreload">
+    <script>
+      // The theme is set before the first paint, so the page never flashes a
+      // colour it is about to replace. Light is the default.
+      (function () {
+        try {
+          var stored = localStorage.getItem('collabior-theme');
+          document.documentElement.dataset.theme = stored === 'dark' ? 'dark' : 'light';
+        } catch (e) {
+          document.documentElement.dataset.theme = 'light';
+        }
+      })();
+    </script>
+    <link href="/_app/immutable/entry/start.BBezRW3Q.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/__p78L45.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/C0Px-37E.js" rel="modulepreload">
+		<link href="/_app/immutable/entry/app.Di0Z2a-h.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/BDP2O1qV.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/CI5Zp8_g.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/jQEJtHek.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DKyVzjFz.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/BwRfJyqz.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DJDTKwDD.js" rel="modulepreload">
+		<link href="/_app/immutable/nodes/0.DsTg4LGO.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/nz37b9U7.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/CIK8lUsm.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DFsMSUT-.js" rel="modulepreload">
 		
-		<link href="/_app/immutable/assets/0.Ddh_q8ba.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/0.wGNdFGSI.css" rel="stylesheet">
   </head>
   <body data-sveltekit-preload-data="hover">
     <div style="display: contents">
 			<script>
 				{
-					__sveltekit_cjao5s = {
+					__sveltekit_1ygd0dz = {
 						base: ""
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("/_app/immutable/entry/start.lhPaRf_r.js"),
-						import("/_app/immutable/entry/app.CMp_3J4I.js")
+						import("/_app/immutable/entry/start.BBezRW3Q.js"),
+						import("/_app/immutable/entry/app.Di0Z2a-h.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element);
 					});
